@@ -1,5 +1,7 @@
 package com.google.builder.newVersion;
 
+import java.util.Arrays;
+
 public class Computer {
     private final String cpu;
     private final String display;
@@ -25,6 +27,7 @@ public class Computer {
         public Builder(String cpu, String display) {
             this.cpu = cpu;
             this.display = display;
+            System.out.println();
         }
 
         public Builder setKeyboard(String keyboard) {
